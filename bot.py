@@ -76,7 +76,7 @@ def check_join_callback(call):
 @bot.message_handler(func=lambda m: m.text == "➕ Add Your Channel")
 def add_channel(message):
     bot.send_message(message.chat.id,
-                     "Channel me bot ko admin banao\nFir username bhejo (Example: @channelname)")
+                     "Channel me bot ko admin banao\nFir username bhejo (Example: @botsbylucky)
 
 @bot.message_handler(func=lambda m: m.text and m.text.startswith("@"))
 def save_channel(message):
