@@ -181,5 +181,5 @@ def index():
 
 if __name__ == "__main__":
     bot.remove_webhook()
-    bot.set_webhook(url=f"https://reaction-bot-bl9e.onrender.com")
+    bot.set_webhook(url=f"https://reaction-bot-bl9e.onrender.com/8614118579:AAE4QhemihHCUj01dcRzGe138_8QEX0vmHo")
     app.run(host="0.0.0.0", port=10000)
