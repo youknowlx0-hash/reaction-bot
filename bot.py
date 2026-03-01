@@ -5,7 +5,7 @@ import json, os
 
 TOKEN = "8614118579:AAE4QhemihHCUj01dcRzGe138_8QEX0vmHo"
 FORCE_CHANNEL = "@BotsbyLucky"
-OWNER_ID = 123456789
+OWNER_ID = 6813806104
 
 bot = telebot.TeleBot(TOKEN)
 app = Flask(__name__)
