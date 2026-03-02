@@ -86,6 +86,8 @@ def broadcast(message):
     )
 
 # ================== RUN ==================
+print("Removing webhook...")
+bot.delete_webhook()
 
 print("Bot is running...")
 bot.infinity_polling()
