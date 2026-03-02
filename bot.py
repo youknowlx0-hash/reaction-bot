@@ -5,7 +5,7 @@ import os
 
 # ================== CONFIG ==================
 BOT_TOKEN = "8614118579:AAE4QhemihHCUj01dcRzGe138_8QEX0vmHo"
-ADMIN_IDS = [6813806104]  # Yaha apna Telegram user ID daalo
+ADMIN_ID = [6813806104]  # Yaha apna Telegram user ID daalo
 FORCE_CHANNEL = "@BotsbyLucky"  # Apna channel username daalo
 
 bot = telebot.TeleBot(BOT_TOKEN, parse_mode="HTML")
